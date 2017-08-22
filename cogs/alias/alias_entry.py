@@ -23,8 +23,8 @@ class AliasEntry:
 
     def inc(self):
         """
-        Increases the `uses` stat by 1.
-        :return: new use count
+        Augmente la valeur `uses` de 1.
+        :return: nouvelle valeur
         """
         self.uses += 1
         return self.uses
